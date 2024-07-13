@@ -1,0 +1,23 @@
+body {
+  background:  #ffff;
+  margin: 0;
+  height: 100%;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.grid {
+  display: grid;
+  width: 100%;
+  height: 100%;
+  grid-template-columns: 1fr; /* Utiliza 1 fr (fração) para uma coluna */
+  grid-template-rows: 1fr; /* Utiliza 1 fr (fração) para uma linha */
+  grid-gap: 0.5%; /* Espaçamento entre as células da grade */
+  background-color: #fff; /* Cor de fundo da grade */
+}
+
+.box {
+  background-color: #444; /* Cor de fundo da célula */
+  color: #fff; /* Cor do texto dentro da célula */
+  padding: 4px; /* Espaçamento interno da célula */
+}
